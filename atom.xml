@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://localhost:4000</id>
     <title>GRANDE</title>
-    <updated>2021-03-26T05:53:39.835Z</updated>
+    <updated>2021-03-26T05:57:09.226Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://localhost:4000"/>
     <link rel="self" href="http://localhost:4000/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>http://localhost:4000/images/avatar.png</logo>
     <icon>http://localhost:4000/favicon.ico</icon>
     <rights>All rights reserved 2021, GRANDE</rights>
+    <entry>
+        <title type="html"><![CDATA[maven 插件打springbootjar解包相关命令]]></title>
+        <id>http://localhost:4000/post/maven-cha-jian-da-springbootjar-jie-bao-xiang-guan-ming-ling/</id>
+        <link href="http://localhost:4000/post/maven-cha-jian-da-springbootjar-jie-bao-xiang-guan-ming-ling/">
+        </link>
+        <updated>2021-03-26T05:55:05.000Z</updated>
+        <content type="html"><![CDATA[<pre><code class="language-shell">#-n “pk&quot;所在行号
+tail -n +273 ms-hadr.jar &gt; ms-hadr-pure.jar
+
+# shell和二进制包内容查看
+cat -n  ./aff-boot.jar | more
+
+# 从前往后装配成一个文件
+ms-hadr-boot.sh ms-hadr-pure.jar &gt; ms-hadr.jar
+
+# 前306行生成.sh文件
+head -n 306 ms-trafficlogmanager.jar &gt; ms-trafficlogmanager-boot.sh
+
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[遇见]]></title>
         <id>http://localhost:4000/post/yu-jian/</id>
