@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://onekeyes.github.io</id>
     <title>GRANDE</title>
-    <updated>2021-03-26T11:42:17.527Z</updated>
+    <updated>2021-03-26T11:50:32.420Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://onekeyes.github.io"/>
     <link rel="self" href="https://onekeyes.github.io/atom.xml"/>
@@ -26,7 +26,8 @@
         <link href="https://onekeyes.github.io/post/xiao-gong-ju-ji-he/">
         </link>
         <updated>2021-03-26T07:43:10.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="测试小工具集合-1">测试小工具集合 1</h2>
+        <content type="html"><![CDATA[<h2 id="pac-规则">Pac 规则</h2>
+<p>[https://raw.githubusercontent.com/Lincest/whitelist/master/pac.txt]</p>
 <h2 id="测试小工具集合-2">测试小工具集合 2</h2>
 <h2 id="测试小工具集合-4">测试小工具集合 4</h2>
 <h2 id="测试小工具集合-5">测试小工具集合 5</h2>
